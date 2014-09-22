@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version phpStudy 2014
+- http://www.phpmyadmin.net
+-
+- 主机: localhost
+- 生成日期: 2014 年 07 月 28 日 11:54
+- 服务器版本: 5.5.36
+- PHP 版本: 5.4.26
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="abc" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="pr_project">
+                CREATE TABLE `pr_project` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) NOT NULL,
+                  `remark` varchar(255) NOT NULL,
+                  `url` varchar(255) NOT NULL,
+                  `putty` varchar(255) NOT NULL,
+                  `port` int(11) NOT NULL,
+                  `path` varchar(255) NOT NULL,
+                  `svn` varchar(255) NOT NULL,
+                  `db_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - 数据库: 'abc'
+    -->
+    <database name="abc">
+        <!-- 表 pr_project -->
+        <table name="pr_project">
+            <column name="id">1</column>
+            <column name="name">ask(前后台)</column>
+            <column name="remark">育儿问答</column>
+            <column name="url">http://ask.ci123.com</column>
+            <column name="putty">221.231.140.251</column>
+            <column name="port">22</column>
+            <column name="path">/opt/ci123/www/html/ask</column>
+            <column name="svn">svn://svn.ci123.com/ask/trunk</column>
+            <column name="db_id">1</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">2</column>
+            <column name="name">ask(统计)</column>
+            <column name="remark">育儿问答</column>
+            <column name="url">http://ask.ci123.com</column>
+            <column name="putty">180.96.7.124</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/ask</column>
+            <column name="svn"> 	svn://svn.ci123.com/ask/trunk</column>
+            <column name="db_id">1</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">3</column>
+            <column name="name">m(baidu、shiyong)</column>
+            <column name="remark"></column>
+            <column name="url">http://m.ci123.com/</column>
+            <column name="putty">202.102.90.111</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/m</column>
+            <column name="svn">svn://svn.ci123.com/m</column>
+            <column name="db_id">1</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">4</column>
+            <column name="name">abc</column>
+            <column name="remark">abc育儿网超级后台</column>
+            <column name="url">http://abc.ci123.com/</column>
+            <column name="putty">221.231.140.242</column>
+            <column name="port">22</column>
+            <column name="path">/opt/ci123/www/html/abc</column>
+            <column name="svn"></column>
+            <column name="db_id">0</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">5</column>
+            <column name="name">qq</column>
+            <column name="remark">育儿圈圈</column>
+            <column name="url">http://qq.ci123.com/</column>
+            <column name="putty">202.102.90.108</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/qq</column>
+            <column name="svn">svn://svn.ci123.com/ciqq</column>
+            <column name="db_id">6</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">6</column>
+            <column name="name">qq_dev</column>
+            <column name="remark">育儿圈圈dev</column>
+            <column name="url">http://qq.ci123.com:88/</column>
+            <column name="putty">202.102.90.108</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/qqdev</column>
+            <column name="svn">svn://svn.ci123.com/ciqq</column>
+            <column name="db_id">6</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">7</column>
+            <column name="name">nimda</column>
+            <column name="remark">育儿网后台</column>
+            <column name="url">http://nimda.ci123.com/index.php</column>
+            <column name="putty">202.102.90.111</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/www/html/cms/ci123_nimda</column>
+            <column name="svn">svn://svn.ci123.com/cms/ci123_nimda</column>
+            <column name="db_id">2</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">8</column>
+            <column name="name">baobao</column>
+            <column name="remark">宝宝主页</column>
+            <column name="url">http://baobao.ci123.com/</column>
+            <column name="putty">202.102.90.109</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/baobao_v3/</column>
+            <column name="svn">http://svnadmin.ci123.com/svn/baobao_2014</column>
+            <column name="db_id">3</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">9</column>
+            <column name="name">blog</column>
+            <column name="remark">宝宝博客</column>
+            <column name="url">http://blog.ci123.com/</column>
+            <column name="putty">202.102.90.108</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/blog_v2</column>
+            <column name="svn">svn://svn.ci123.com/blog_v2</column>
+            <column name="db_id">5</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">10</column>
+            <column name="name">blogmanage</column>
+            <column name="remark">宝宝博客（管理员后台）</column>
+            <column name="url">http://blogmanage.ci123.com/</column>
+            <column name="putty">202.102.90.109</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/博客编辑后台</column>
+            <column name="svn">svn://svn.ci123.com/博客编辑后台</column>
+            <column name="db_id">5</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">11</column>
+            <column name="name">blogadmin</column>
+            <column name="remark">宝宝博客-博客管理</column>
+            <column name="url">http://blogadmin.ci123.com/</column>
+            <column name="putty">202.102.90.109</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/blogadmin</column>
+            <column name="svn">svn://svn.ci123.com/blogadmin/branches/develop</column>
+            <column name="db_id">5</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">12</column>
+            <column name="name">bbs</column>
+            <column name="remark">育儿论坛</column>
+            <column name="url">http://bbs.ci123.com/</column>
+            <column name="putty">221.231.140.247</column>
+            <column name="port">22</column>
+            <column name="path">/opt/ci123/www/html/bbs</column>
+            <column name="svn">svn://svn.ci123.com/bbs2/branches/pa</column>
+            <column name="db_id">4</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">13</column>
+            <column name="name">bbs_dev</column>
+            <column name="remark">育儿论坛dev</column>
+            <column name="url">http://bbsdev.ci123.com/</column>
+            <column name="putty">221.231.140.247</column>
+            <column name="port">22</column>
+            <column name="path">/opt/ci123/www/html/bbsdev</column>
+            <column name="svn">svn://svn.ci123.com/bbs2/branches/pa</column>
+            <column name="db_id">4</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">14</column>
+            <column name="name">baodian_old</column>
+            <column name="remark">老版育儿宝典</column>
+            <column name="url">http://www.ci123.com/baodian/old/</column>
+            <column name="putty">202.102.90.111</column>
+            <column name="port">29622</column>
+            <column name="path">/opt/ci123/www/html/cms/baodian</column>
+            <column name="svn"></column>
+            <column name="db_id">0</column>
+        </table>
+        <table name="pr_project">
+            <column name="id">15</column>
+            <column name="name">admin</column>
+            <column name="remark"></column>
+            <column name="url">http://admin.ci123.com/</column>
+            <column name="putty">221.231.140.241</column>
+            <column name="port">22</column>
+            <column name="path">/opt/ci123/www/html/ci123admin</column>
+            <column name="svn">svn://svn.ci123.com/ci123admin</column>
+            <column name="db_id">0</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <posts>
+        <id>1</id>
+        <title>标题一</title>
+        <content>详细内容一</content>
+    </posts>
+    <posts>
+        <id>2</id>
+        <title>标题二</title>
+        <content>详细内容二</content>
+    </posts>
+    <posts>
+        <id>3</id>
+        <title>标题三</title>
+        <content>详细内容三</content>
+    </posts>
+</root>

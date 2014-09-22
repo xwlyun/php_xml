@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <users>
+    <name>a1</name>
+  </users>
+  <users>
+    <name>b1</name>
+  </users>
+  <users>
+    <name>c1</name>
+  </users>
+  <posts>
+    <id>1</id>
+    <sub>test1</sub>
+    <sub>test2</sub>
+  </posts>
+  <posts>
+    <id>2</id>
+    <sub>b</sub>
+  </posts>
+  <posts>
+    <id>3</id>
+    <sub>c</sub>
+  </posts>
+</root>
